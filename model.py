@@ -26,8 +26,6 @@ class FastNN(nn.Module):
         pass
 
     def loss(self, pred, target, done = False):
-
-
         loss_combine = torch.mean((pred - target) ** 2)
 
         return loss_combine

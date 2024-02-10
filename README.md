@@ -7,3 +7,12 @@ Fourier Features Self-modeling Robots
 
 
 env.py ---a robot in pybullet simulation
+
+
+
+TO DO:
+1. Collect robot babblng data: 20k steps.
+2. Create two self-models(with/without fourier features mapping) using these data.
+3. Evaluate prediction results. 
+4. Use such data to achieve MPC control.
+
